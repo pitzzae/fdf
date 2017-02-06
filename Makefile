@@ -37,7 +37,7 @@ SRCS += $(SRCS_DIR)make_png.c
 
 
 #MINILIBX = -Lminilibx -lmlx -framework OpenGL -framework AppKit
-MINILIBX = -L./../minilibx -lmlx -lXext -lX11 -lm
+MINILIBX = -L./mlx -lmlx -lXext -lX11 -lm
 
 all: ${NAME}
 
